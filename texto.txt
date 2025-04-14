@@ -1,1 +1,6 @@
+
 Alterando a mesma linha só que na Branch Main
+
+Alterando o Texto Inicial na Branch feature-1
+
+Conteúdo Combinando Após Conflito.
