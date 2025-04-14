@@ -1,0 +1,51 @@
+DAMIAO CAZUZA DE SOUSA NETTO
+
+COMANDOS UTILIZADOS NA TAREFA:
+
+
+git clone https://gitlab.com/mizael.cortez/curso-branchs-ifrn-ead
+
+cd curso-branchs-ifrn-ead
+
+echo "Fazendo Tarefa da Unidade 2" > texto.txt
+
+git add .
+
+git commit -m "feat: cria o arquivo texto.txt com um conteúdo inicial"
+
+git checkout -b feature-1
+
+echo "Alterando Texto Inicial na Branch feature-1" > texto.txt
+
+git add.
+
+git add commit -m "feat:altera texto na feature-1"
+
+git switch main
+
+echo "Alterando a mesma linha só que na Branch Main" > texto.txt
+
+git add.
+
+git commit -m "feat: Alterando o Texto só que na Branch Main"
+
+git merge feature-1
+
+git add .
+
+git commit -m "fix: resolvendo conflito entre as branches main e feature-1"
+
+git checkout -b add-comandos
+
+echo "DAMIAO CAZUZA DE SOUSA NETTO" > comandos.txt
+echo" COMANDOS UTILIZADOS NA TAREFA: >> comandos.txt
+
+		...
+
+git add .
+
+git commit -m "docs: adciona comandos usados para realizar a atividade"
+
+"
+
+
